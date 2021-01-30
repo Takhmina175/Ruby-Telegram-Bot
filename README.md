@@ -1,1 +1,1 @@
-# Bots_for_managing_tasks
+# Bot_for_managing_tasks
