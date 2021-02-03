@@ -13,11 +13,9 @@
 1. Open the terminal and navigate to your root folder then enter the `bundle init` command in your terminal to initialize Gemfile
 2. Open the Gamfile with any text editor and add the following information:
 
-[source] ("https://rubygems.org")
- 
- [git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
- 
- gem 'telegram-bot-ruby']
+`source "https://rubygems.org"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'telegram-bot-ruby'`
 
 3. Then run `bundle` OR `gem install` telegram-bot-ruby to install the required dependencies
 4. In your root directory create **bin** and **lib** folders 
@@ -27,18 +25,7 @@
 `In the bot. RB file, you put code that consistently will be running on the server
 The basic starting and ending messages in the Telegram-bot are shown in the code below:`
 
-`require 'telegram/bot'
- token = 'YOUR_TELEGRAM_BOT_API_TOKEN'
- Telegram::Bot::Client.run(token) do |bot|
-   bot.listen do |message|
-    case message.text
-    when '/start'
-     bot.api.send_message(chat_id: message.chat.id, text: "Hello,   #{message.from.first_name}")
-    when '/stop'
-      bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
-    end
-  end
-end`
+![Example] (code.png)
 
 ### The code description
 - **telegram/bot** is a library installed via gem and used in this program
