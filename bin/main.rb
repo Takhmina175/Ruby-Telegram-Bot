@@ -1,4 +1,5 @@
-require_relative '../lib/bot.rb'
+# frozen_string_literal: true
 
+require_relative '../lib/bot'
 
 Bot.new

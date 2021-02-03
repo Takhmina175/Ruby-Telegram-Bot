@@ -1,21 +1,30 @@
+# frozen_string_literal: true
+
+# lib/Description of Quotes class
 class Quotes
-    attr_reader :quotes
+  attr_reader :quotes
 
-    def initialize
-        @quotes = ['Any fool can write code that a computer can understand. Good programmers write code that humans can understand. ― Martin Fowler',
-            
-        "I' m not a great programmer; I'm just a good programmer with great habits.― Kent Beck",
+  def initialize
+    @quotes = ['Fix the cause, not the symptom.” – Steve Maguire',
 
-        'The most important property of a program is whether it accomplishes the intention of its user. ― C.A.R. Hoare',
+               "I' m not a great programmer; I'm just a good programmer with great habits.― Kent Beck",
 
-        'A son asked his father (a programmer) why the sun rises in the east, and sets in the west. His response? It works, don’t touch!',
+               'First, solve the problem. Then, write the code.” – John Johnson',
 
-        'Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.',
+               'Optimism is an occupational hazard of programming: feedback is the treatment.  Kent Beck',
 
-        '99 little bugs in the code. 99 little bugs in the code. Take one down, patch it around. 127 little bugs in the code.'
-        ]
-    end
-    def random_quotes
-        @quotes.sample
-    end
+               'Knowledge is power. – Francis Bacon',
+
+               'Code is like humor. When you have to explain it, it is bad. – Cory House',
+
+               'Simplicity is the soul of efficiency. – Austin Freeman',
+
+               'Optimism is an occupational hazard of programming: feedback is the treatment. Kent Beck',
+
+               'In order to be irreplaceable, one must always be different – Coco Chanel']
+  end
+
+  def random_quotes
+    @quotes.sample
+  end
 end
