@@ -22,8 +22,8 @@ gem 'telegram-bot-ruby'`
 5. Create an executable file named *main.rb* inside the **bin** folder as well as a *bot.rb* file inside the **lib** folder for storing the Telegram’s bot API. 
 
 ### Codding the Telegram-Bot
-`In the bot. RB file, you put code that consistently will be running on the server
-The basic starting and ending messages in the Telegram-bot are shown in the code below:`
+In the bot.rb file, you put code that consistently will be running on the server
+The basic starting and ending messages in the Telegram-bot are shown in the code below:
 
 ![Example](code.png)
 
