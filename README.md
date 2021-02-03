@@ -25,7 +25,7 @@ gem 'telegram-bot-ruby'`
 `In the bot. RB file, you put code that consistently will be running on the server
 The basic starting and ending messages in the Telegram-bot are shown in the code below:`
 
-![Example] (code.png)
+![Example](code.png)
 
 ### The code description
 - **telegram/bot** is a library installed via gem and used in this program
