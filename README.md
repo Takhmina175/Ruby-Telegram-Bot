@@ -1,4 +1,13 @@
 # Creating a Telegram-Bot with Ruby
+![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Telegram-Bot API-purple)
+![](https://img.shields.io/badge/Ruby-red)
+
+I have built a Telegram-bot for sending quotes, jokes, and sarcasm that shows the programmer's life in a humoristic way.
+
+## Built with
+* Ruby
+* The Telegram Bot API
 
 ### Telegram installation steps
 * Sign up and download a Telegram bot application
