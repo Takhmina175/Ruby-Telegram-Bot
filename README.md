@@ -39,3 +39,23 @@ The basic starting and ending messages in the Telegram-bot are shown in the code
 **/start** - the /start command begins an interaction with the user by sending a greeting message. 
 **/stop** – the /stop command end interaction with the user by sending a goodbye message.
 **/jokes**, **/quotes**, **/sarcasm**. Memes are commands that assist a user in selecting desired services and avoid misspelling while typing the command.
+
+## Author
+
+**Mina**
+
+- GitHub: [@Takhmina175](https://github.com/Takhmina175)
+- Twitter: [@Takhmin73630110](https://twitter.com/Takhmin73630110)
+- LinkedIn: [Takhmina Makhkamova](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](./LICENSE) licensed.
+
+## Acknowledgements
+
+- [Microverse](https://microverse.org)
