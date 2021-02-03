@@ -4,7 +4,7 @@
 * Sign up and download a Telegram bot application
 * Open the application on your Desktop and find BotFather in the Telegram list of   people in the search box
 * Press the ‘Start’ button at the bottom of the dialog box
-* Select `‘/newbot’` command from the list of option
+* Select `/newbot` command from the list of option
 * To create your personal Telegram-bot enter bot name and username
 * Select a token that comprises characters that uniquely identify and authenticate your bot
 * Congratulation! The registration of your Telegram bot is all done!
@@ -13,9 +13,9 @@
 1. Open the terminal and navigate to your root folder then enter the `bundle init` command in your terminal to initialize Gemfile
 2. Open the Gamfile with any text editor and add the following information:
 
-`source "https://rubygems.org"
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-gem 'telegram-bot-ruby'`
+- source "https://rubygems.org"
+- git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+- gem 'telegram-bot-ruby'
 
 3. Then run `bundle` OR `gem install` telegram-bot-ruby to install the required dependencies
 4. In your root directory create **bin** and **lib** folders 
