@@ -16,20 +16,20 @@ class Bot
         bot.api.send_message(chat_id: message.chat.id,
                              text: "Hello #{message.from.first_name},\n Welcome to Mina's Telegram-Bot")
         bot.api.send_message(chat_id: message.chat.id,
-                             text: 'Please select one of command to runthe program: /quotes, /jokes, or /sarcasm')
+                             text: 'Please select one of the commands to run the program: /quotes or /jokes')
       when '/quotes'
         quotes = Quotes.new
         bot.api.send_message(chat_id: message.chat.id,
                              text: "#{quotes.random_quotes}\n Select more /quotes")
         bot.api.send_message(chat_id: message.chat.id,
-                             text: 'You may choose other options like 👉 /jokes 😅 or /stop 🛑')
+                             text: 'You may choose other options like 👉 /jokes 😅 or /stop 🛑 to end the program')
       when '/jokes'
         jokes = Jokes.new
         bot.api.send_photo(chat_id: message.chat.id, photo: jokes.random_jokes)
         bot.api.send_message(chat_id: message.chat.id,
                              text: 'Select more /jokes')
         bot.api.send_message(chat_id: message.chat.id,
-                             text: 'You may choose other options like 👉 /quotes 👩‍💻 or /stop 🛑')
+                             text: 'You may choose other options like 👉 /quotes 👩‍💻 or /stop 🛑 to end the program')
       when '/stop'
         bot.api.send_message(chat_id: message.chat.id,
                              text: "Bye, #{message.from.first_name} I Hope You Enjoy Your Day Quotes And Jokes")
