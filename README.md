@@ -22,10 +22,11 @@ I have built a Telegram-bot for sending quotes and jokes about the programmers t
 1. Open the terminal and navigate to your project folder.
 2. Enter the `bundle init` command in your terminal to initialize Gemfile
 2. Open the Gamfile with any text editor and add the following information:
-
-- source "https://rubygems.org"
-- git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-- gem 'telegram-bot-ruby'
+```
+source "https://rubygems.org"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'telegram-bot-ruby'
+```
 
 3. Then run `bundle` OR `gem install` in the terminal to install the required dependencies.
 4. In your root directory, create **bin** and **lib** folders 
