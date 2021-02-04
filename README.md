@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/badge/Ruby-red)
 
-I have built a Telegram-bot for sending quotes, jokes, and sarcasm that shows the programmer's life in a humoristic way.
+I have built a Telegram-bot for sending quotes and jokes that shows the programmer's life in a humoristic way.
 
 ## Built with
 * Ruby
