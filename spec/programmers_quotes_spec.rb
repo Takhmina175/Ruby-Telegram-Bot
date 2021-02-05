@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'programmers_quotes'
 
 describe 'Quotes' do

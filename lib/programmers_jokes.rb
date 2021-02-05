@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # lib/Description of Sarcasm class
 class Jokes
   attr_reader :sarcasm
