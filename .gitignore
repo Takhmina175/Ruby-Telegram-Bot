@@ -2,3 +2,4 @@ Gemfile
 .rspec
 Gemfile.lock
 rubocop.yml
+token.env

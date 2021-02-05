@@ -2,12 +2,15 @@
 
 # rubocop:disable Metrics/BlockLength
 require 'telegram/bot'
+require 'dotenv'
+Dotenv.load('token.env')
 require_relative 'programmers_quotes'
 require_relative 'programmers_jokes'
 
 # lib/Description of Jokes class
 class Bot
-  token = '1692098067:AAFu4RgK5nzEysDpumc6Ch8ruDSRp90JOR0'
+  def initialize
+    token = ENV['TOKEN']
 
   Telegram::Bot::Client.run(token) do |bot|
     bot.listen do |message|
@@ -39,5 +42,6 @@ class Bot
       end
     end
   end
+end
 end
 # rubocop: enable Metrics/BlockLength
