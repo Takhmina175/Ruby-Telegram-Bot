@@ -1,4 +1,3 @@
-# ./spec/programmers_quotes_spec.rb
 require 'programmers_quotes'
 
 describe 'Quotes' do

@@ -1,4 +1,3 @@
-# ./spec/programmers_jokes_spec.rb
 require 'programmers_jokes'
 
 describe 'Jokes' do
