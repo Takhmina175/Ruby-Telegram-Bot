@@ -1,3 +1,6 @@
+# rubocop:disable Layout/LineLength
+# rubocop:disable Metrics/MethodLength
+
 require 'telegram/bot'
 require 'dotenv'
 Dotenv.load('token.env')
@@ -39,3 +42,5 @@ class Bot
     end
   end
 end
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Layout/LineLength
