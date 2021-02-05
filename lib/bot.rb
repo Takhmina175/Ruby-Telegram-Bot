@@ -1,9 +1,5 @@
-# frozen_string_literal: true
-
 # rubocop:disable Layout/LineLength
 # rubocop:disable Metrics/MethodLength
-# rubocop:disable Metrics/BlockLength
-# rubocop:disable Metrics/AbcSize
 
 require 'telegram/bot'
 require 'dotenv'
@@ -48,5 +44,3 @@ class Bot
 end
 # rubocop:enable Metrics/MethodLength
 # rubocop:enable Layout/LineLength
-# rubocop:enable Metrics/BlockLength
-# rubocop:enable Metrics/AbcSize
