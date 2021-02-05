@@ -9,12 +9,15 @@ I have built a Telegram-bot for sending quotes and jokes about the programmers t
 * The Telegram Bot API
 
 ### Telegram installation steps
-*	Sign up and download a Telegram bot application.
+*	Sign up and download a [Telegram bot] (https://web.telegram.org/#/login) application
 *	Open the application on your Desktop and find BotFather in the search box.
+![BotFather] (images/botFather.png)
 *	Press the **Start** button at the bottom of the dialog box.
 *	Select `/newbot` command from the list of options.
+![NewBot] (images/newbot.png)
 *	To create your Telegram-bot, enter the bot name and username.
 *	Copy a token that comprises characters that uniquely identify and authenticate your bot.
+![Token] (images/token.png)
 *	Congratulation! The registration of your Telegram bot is all done!
 
 
@@ -36,7 +39,7 @@ gem 'telegram-bot-ruby'
 Put code in the bot.rb file that will consistently run on the server.
 The basic message starting and ending processes in the Telegram-bot are shown in the code below:
 
-![Example](code.png)
+![Example](images/code.png)
 
 ### The code description
 - **telegram/bot** is a library installed via gem
@@ -55,8 +58,11 @@ The basic message starting and ending processes in the Telegram-bot are shown in
 - The MinasTelegrambot program provides quotes and jokes about the programmer's life.
 - To run the application, you have to open the Telegram-bot from your desktop and use a terminal to execute the main file (ruby bin\main.RB).
 - In Telegram-bot, you can search the username called 'MinasTelegrambot' and click start to begin the program.
+![SearchTel-bot] (images/telbot.png)
 - By default, the program displays a welcome message and provides a /start command to begin the program.
+![StartProgram] (images/startbot.png)
 - When the program starts, it provides two options for receiving quotes (/quotes) or jokes (/jokes). T
+![Option] (images/option.png)
 - The user receives quotes or jokes by selecting any of the given options.
 
 ## Author
