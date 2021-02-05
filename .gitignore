@@ -1,5 +1,5 @@
 Gemfile
 .rspec
 Gemfile.lock
-rubocop.yml
+.rubocop.yml
 token.env

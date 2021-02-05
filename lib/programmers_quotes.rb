@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # lib/Description of Quotes class
 class Quotes
   attr_reader :quotes
