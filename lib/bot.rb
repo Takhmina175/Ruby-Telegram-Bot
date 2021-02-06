@@ -19,14 +19,14 @@ class Bot
           bot.api.send_message(chat_id: message.chat.id,
                                text: 'Please select /quotes or /jokes to run the program')
         when '/quotes'
-          quotes = Quotes.new
+          quote = Quotes.new
           bot.api.send_message(chat_id: message.chat.id,
-                               text: "#{quotes.random_quotes}\n Select more /quotes")
+                               text: "#{quote.rand_quotes}\n Select more /quotes")
           bot.api.send_message(chat_id: message.chat.id,
                                text: 'You may choose other options like 👉 /jokes 😅 or /stop 🛑 to end the program')
         when '/jokes'
-          jokes = Jokes.new
-          bot.api.send_photo(chat_id: message.chat.id, photo: jokes.random_jokes)
+          joke = Jokes.new
+          bot.api.send_photo(chat_id: message.chat.id, photo: joke.jokes)
           bot.api.send_message(chat_id: message.chat.id,
                                text: 'Select more /jokes')
           bot.api.send_message(chat_id: message.chat.id,

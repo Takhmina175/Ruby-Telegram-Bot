@@ -23,6 +23,12 @@ class Jokes
     ]
   end
 
+  def jokes
+    random_jokes.to_s
+  end
+
+  private
+
   def random_jokes
     @sarcasm.sample
   end

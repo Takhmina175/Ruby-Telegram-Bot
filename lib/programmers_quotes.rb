@@ -22,6 +22,12 @@ class Quotes
                'In order to be irreplaceable, one must always be different – Coco Chanel']
   end
 
+  def rand_quotes
+    random_quotes.to_s
+  end
+
+  private
+
   def random_quotes
     @quotes.sample
   end
