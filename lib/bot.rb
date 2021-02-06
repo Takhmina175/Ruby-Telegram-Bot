@@ -21,12 +21,12 @@ class Bot
         when '/quotes'
           quote = Quotes.new
           bot.api.send_message(chat_id: message.chat.id,
-                               text: "#{quote.rand_quotes}\n Select more /quotes")
+                               text: "#{quote.pub_quotes}\n Select more /quotes")
           bot.api.send_message(chat_id: message.chat.id,
                                text: 'You may choose other options like 👉 /jokes 😅 or /stop 🛑 to end the program')
         when '/jokes'
           joke = Jokes.new
-          bot.api.send_photo(chat_id: message.chat.id, photo: joke.jokes)
+          bot.api.send_photo(chat_id: message.chat.id, photo: joke.pub_jokes)
           bot.api.send_message(chat_id: message.chat.id,
                                text: 'Select more /jokes')
           bot.api.send_message(chat_id: message.chat.id,

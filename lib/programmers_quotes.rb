@@ -1,6 +1,6 @@
 # lib/Description of Quotes class
 class Quotes
-  attr_reader :quotes
+  attr_accessor :quotes
 
   def initialize
     @quotes = ['Fix the cause, not the symptom.” – Steve Maguire',
@@ -22,13 +22,13 @@ class Quotes
                'In order to be irreplaceable, one must always be different – Coco Chanel']
   end
 
-  def rand_quotes
-    random_quotes.to_s
+  def pub_quotes
+    get_quotes(@quotes)
   end
 
   private
 
-  def random_quotes
-    @quotes.sample
+  def get_quotes(cites)
+    cites.sample
   end
 end

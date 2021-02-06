@@ -1,9 +1,9 @@
 # lib/Description of Sarcasm class
 class Jokes
-  attr_reader :sarcasm
+  attr_accessor :jokes
 
   def initialize
-    @sarcasm = [
+    @jokes = [
       'https://scontent.fesb4-2.fna.fbcdn.net/v/t1.0-9/96066463_237835897651629_218018501359566848_n.jpg?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_ohc=bYiboZ9tMDkAX9TYMAW&_nc_ht=scontent.fesb4-2.fna&oh=644efcb5e8734962296410076810a1ca&oe=603F0903',
 
       'https://scontent.fesb4-2.fna.fbcdn.net/v/t1.0-9/96213929_235636257871593_4578597792242466816_o.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_ohc=BUELkHlh6xMAX-Rs2FQ&_nc_ht=scontent.fesb4-2.fna&oh=2d89a9d892d82ffb08134cd0c63751eb&oe=603F1F85',
@@ -23,13 +23,13 @@ class Jokes
     ]
   end
 
-  def jokes
-    random_jokes.to_s
+  def pub_jokes
+    get_jokes(@jokes)
   end
 
   private
 
-  def random_jokes
-    @sarcasm.sample
+  def get_jokes(cites)
+    cites.sample
   end
 end
